@@ -1,0 +1,19 @@
+.color{
+    background-color: #00BFB3;
+    box-align: center;
+}
+.br{
+    border-color: white;
+}
+.ft{
+   
+    font-family:  Consolas;
+}
+
+.measure {
+    max-width: 100em;
+}
+.list
+{
+    background-color: #40BCD8;
+}
