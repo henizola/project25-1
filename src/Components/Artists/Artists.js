@@ -10,20 +10,22 @@ const Artists =({searchField})=>
 <div class="pa2 ph3-ns pb3-ns">
   <div class="dt w-100 mt1">
     <div class="dtc f4 tl ">
-       {artist.filter((name)=>{
-                 return (name.toLowerCase().includes(searchField.toLowerCase()));
-                })}
-         
-          {/* </div> */}
-    </div>
+         <ul>
+            {artist.map((value, index) => {
+              if(value.toLowerCase().includes(searchField.toLowerCase()))
+                 {
+                return <li key={index}>{value}</li>
+                 }
+              else{
+                return '';
+              }})}
+          </ul>
+     </div>
     <div class="dtc tr">
     </div>
   </div>
 </div>
-</article>
-              
-        
-    );
+</article>);
 }
 export default Artists;
 

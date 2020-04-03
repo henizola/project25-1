@@ -1,11 +1,8 @@
 .color{
     background-color: #00BFB3;
-    box-align: center;
+
 }
-.br{
-    border-color: white;
-}
-.ft{
+.ff{
    
     font-family:  Consolas;
 }
@@ -16,4 +13,11 @@
 .list
 {
     background-color: #40BCD8;
+}
+.wid{
+    width: 600px;
+    border-color: white ;
+    border-radius:15px;
+    border-width: 2px;
+    padding-top: 5px;
 }

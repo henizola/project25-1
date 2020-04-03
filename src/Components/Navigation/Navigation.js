@@ -5,7 +5,8 @@ import './Navigation.css'
 const Navigation =()=>{
     return(
       <div>
-      <article class="br2 ba dark-gray  b--black-20 pa4 h-100 color mv0  w-50-m w-25-l mw8 center shadow-5 ">
+        <p style={{height:'30px'}}></p>
+      <article class="br2 ba dark-gray wid  b--black-20 pa4 h-100 color ff mv0  w-50-m w-25-l mw8 center shadow-5 ">
       <div class="pa2 ph2-ns pb1-ns">
         <div class="dt w-100 mt1">
           <div class="dtc ">
